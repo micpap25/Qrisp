@@ -114,6 +114,11 @@ Development
   (`PR #712 <https://github.com/eclipse-qrisp/Qrisp/pull/712>`_,
    `PR #774 <https://github.com/eclipse-qrisp/Qrisp/pull/774>`_).
 
+* Replaced the ``ruff_checks`` workflow with a new ``lint`` workflow that
+  runs ``ruff format`` and ``codespell``, and added ``codespell`` to the
+  ``dev-code-style`` optional dependency group.
+  (`PR #789 <https://github.com/eclipse-qrisp/Qrisp/pull/789>`_).
+
 Dependency Upgrades
 -------------------
 
